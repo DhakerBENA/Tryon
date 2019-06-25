@@ -1,7 +1,6 @@
 (function ($) {
-  "use strict";
-
-  $(document).ready(function() {
+    "use strict";
+    $(document).ready(function() {
 
     var sync1 = $("#sync1");
     var sync2 = $("#sync2");

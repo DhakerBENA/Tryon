@@ -2759,7 +2759,7 @@ ul {
   height: 900px;
   position: relative;
   z-index: 1;
-  background-color: #f7f7f7;
+  /*background-color: #f7f7f7;*/
 }
 
 /* line 8, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_banner.scss */
@@ -2877,7 +2877,7 @@ ul {
 
 /* line 74, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_banner.scss */
 .banner_part .banner_bg img {
-  margin-left: 20%;
+  margin-left: -15%;
 }
 
 @media (max-width: 576px) {
@@ -3115,7 +3115,7 @@ ul {
 /* line 212, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_banner.scss */
 .banner_part .hero-app-8 {
   position: absolute;
-  left: 60%;
+  left: 40%;
   bottom: 13%;
   top: auto;
 }
@@ -8144,3 +8144,34 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 110px;
 }
 /*# sourceMappingURL=style.css.map */
+/* Container needed to position the button. Adjust the width as needed */
+.swiper-slide {
+  position: relative !important;
+    width: 100%;
+}
+
+/* Make the image responsive */
+.swiper-slide img {
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.swiper-slide .btn-layout {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+}
+.swiper-slide .btn{
+    background-color: #555;
+    padding: 12px 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.swiper-slide .btn:hover {
+  background-color: white !important;
+    color: black !important;
+}
