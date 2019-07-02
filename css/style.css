@@ -8175,3 +8175,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white !important;
     color: black !important;
 }
+
+.unseen {
+    position: absolute;
+    right: 100px;
+    width: 130px;
+    bottom: 30px;
+    height: 30px;
+}
