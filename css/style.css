@@ -3910,27 +3910,27 @@ ul {
 /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
 .happy_client {
   background-color: #162b45;
-  padding: 110px 0px 80px;
+  padding: 139px 147px 0px;
 }
 
 @media (max-width: 576px) {
   /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client {
-    padding: 50px 0px 60px;
+    padding: 50px 20px 60px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client {
-    padding: 50px 0px 60px;
+    padding: 50px 20px 60px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 2, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client {
-    padding: 50px 0px 60px;
+    padding: 50px 20px 60px;
   }
 }
 
@@ -3969,6 +3969,7 @@ ul {
   display: block;
   margin-bottom: 8px;
   margin-left: -10px;
+    left: 478px;
 }
 
 /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
@@ -3977,14 +3978,16 @@ ul {
   font-weight: 700;
   color: #fff;
   display: inline-block;
-  float: left;
+  float: center;
   font-style: "Roboto", sans-serif;
+    left: 478px;
 }
 
 @media (max-width: 576px) {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client span {
     line-height: 67px;
+      left: 478px;
   }
 }
 
@@ -3992,6 +3995,7 @@ ul {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client span {
     line-height: 67px;
+      left: 478px;
   }
 }
 
@@ -3999,6 +4003,7 @@ ul {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client span {
     line-height: 67px;
+      left: 478px;
   }
 }
 
@@ -4007,15 +4012,17 @@ ul {
   color: #fff;
   font-size: 22px;
   font-size: 500;
-  padding-left: 88px;
+  right: auto;
   margin-top: 28px;
   text-transform: uppercase;
+    left: 478px;
 }
 
 @media (max-width: 576px) {
   /* line 57, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client h4 {
     margin-top: 15px;
+      left: 478px;
   }
 }
 
@@ -4023,6 +4030,7 @@ ul {
   /* line 57, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client h4 {
     margin-top: 15px;
+      left: 478px;
   }
 }
 
@@ -4030,6 +4038,7 @@ ul {
   /* line 57, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
   .happy_client .single_happy_client h4 {
     margin-top: 15px;
+left: 478px;
   }
 }
 
@@ -4582,15 +4591,17 @@ ul {
 
 /* line 224, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_review.scss */
 .review_part .intro_video_bg {
-  background-image: url("../img/intro_bg.png");
+  background-image: url("../img/logof1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
-  position: relative;
+  height: 100px;
+  position:absolute;
   z-index: 1;
   display: table;
-  width: 100%;
+  width: 60%;
+  left: 70px;
+
 }
 
 /* line 231, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_review.scss */
@@ -4598,23 +4609,23 @@ ul {
   color: #fff;
   font-size: 15px;
   margin-top: 60px;
-}
+} 
 
-/* line 236, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_review.scss */
+/* line 236 */
 .review_part .intro_video_bg .intro_video_iner {
   display: table-cell;
   vertical-align: middle;
 }
 
 @media (max-width: 576px) {
-  /* line 224, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_review.scss */
+  /* line 224 */
   .review_part .intro_video_bg {
     height: 350px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 224, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_review.scss */
+  /* */
   .review_part .intro_video_bg {
     height: 350px;
   }
@@ -8187,4 +8198,12 @@ position: absolute;
 }
 .fa-android{
     font-size: 20px;
+}
+
+.about_part .col-lg-5 {
+    padding-left: 164px;
+    padding-right: 0px;
+}
+.row align-items-center {
+    padding-left: 164px; 
 }
